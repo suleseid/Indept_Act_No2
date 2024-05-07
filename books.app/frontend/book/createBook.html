@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create New Book</title>
+    <!-- Make sure to link your CSS file if you have one -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Create New Book</h1>
+        <form id="create-book-form">
+            <label for="id">ID:</label>
+            <input type="number" id="id" name="id" required><br>
+            <label for="isbn">ISBN:</label>
+            <input type="number" id="isbn" name="isbn" required><br>
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="title" required><br>
+            <label for="author">Author:</label>
+            <input type="text" id="author" name="author" required><br>
+            <label for="description">Description:</label>
+            <input type="text" id="description" name="description" required><br>
+            <label for="thumbnail">Thumbnail URL:</label>
+            <input type="text" id="thumbnail" name="thumbnail" required><br>
+            <button type="submit">Create Book</button>
+        </form>
+    </div>
+    <script type="module" src="/src/createBook.js"></script>
+</body>
+</html>
+

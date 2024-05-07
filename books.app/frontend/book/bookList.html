@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book List</title>
+  </head>
+  <body>
+    <h1>Book List</h1>
+    <table id="books-table">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>ISBN</th>
+          <th>Title</th>
+          <th>Author</th>
+          <th>Description</th>
+          <th>Thumbnail</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>1</td> <!-- ID -->
+            <td>1234567890</td> <!-- ISBN -->
+            <td>Book 1</td> <!-- Title -->
+            <td>Author 1</td> <!-- Author -->
+            <td>Description 1</td> <!-- Description -->
+            <td><img src="thumbnail1.jpg" alt="Thumbnail for Book 1"></td> <!-- Thumbnail -->
+            <td>
+              <!-- Actions:-we can Edit and Delete buttons -->
+              <button id="edit">Edit</button>
+              <button id="delete">Delete</button>
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>7890123456</td>
+            <td>Book 2</td>
+            <td>Author 2</td>
+            <td>Description 2</td>
+            <td><img src="thumbnail2.jpg" alt="Thumbnail for Book 2"></td>
+            <td>
+              <button id="edit">Edit</button>
+              <button>Delete</button>
+            </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>1357924680</td>
+            <td>Book 3</td>
+            <td>Author 3</td>
+            <td>Description 3</td>
+            <td><img src="thumbnail3.jpg" alt="Thumbnail for Book 3"></td>
+            <td>
+              <button>Edit</button>
+              <button>Delete</button>
+            </td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>2468135790</td>
+            <td>Book 4</td>
+            <td>Author 4</td>
+            <td>Description 4</td>
+            <td><img src="thumbnail4.jpg" alt="Thumbnail for Book 4"></td>
+            <td>
+              <button>Edit</button>
+              <button>Delete</button>
+            </td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>9876543210</td>
+            <td>Book 5</td>
+            <td>Author 5</td>
+            <td>Description 5</td>
+            <td><img src="thumbnail5.jpg" alt="Thumbnail for Book 5"></td>
+            <td>
+              <button>Edit</button>
+              <button>Delete</button>
+            </td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>5432109876</td>
+            <td>Book 6</td>
+            <td>Author 6</td>
+            <td>Description 6</td>
+            <td><img src="thumbnail6.jpg" alt="Thumbnail for Book 6"></td>
+            <td>
+              <button>Edit</button>
+              <button>Delete</button>
+            </td>
+          </tr>
+        <!-- we can add number of books in here  -->
+      </tbody>
+    </table>
+    <script type="module" src="/src/bookList.js"></script>
+  </body>
+</html>
