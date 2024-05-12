@@ -18,7 +18,6 @@ function getBookIdFromUrl(){
         document.getElementById("thumbnail").value = book.thumbnail;
       })
       .catch((error) => {
-        console.error("Failed to fetch book for editing:", error);
         alert("Failed to load book data.");
       });
 

@@ -1,4 +1,4 @@
-import { createBook } from "./Data/bookRepository.js";
+import { createBook } from "./Data/bookRepository";
 
 document
   .getElementById("create-book-form")

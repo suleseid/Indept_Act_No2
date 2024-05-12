@@ -19,11 +19,11 @@ function fetchAllBooks() {
 
 // Fetch a single book by Id
 function fetchBookById(bookId) {
-  return fetch(`${API_BASE_URL}/books/${bookId}`)
+  return fetch(`${API_BASE_URL}/book/${bookId}`)
     .then(handleResponse)
     .catch((error) => {
-      console.error("Error fetching book by Id:", error);
-      throw error; // This allow to call or display error message
+      console.error("Error fetching book by ID:", error);
+      throw error; // Re-throw to allow caller to handle or display error message
     });
 }
 
